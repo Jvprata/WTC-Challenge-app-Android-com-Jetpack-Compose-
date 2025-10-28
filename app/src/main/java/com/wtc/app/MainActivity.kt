@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             WTCAppTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "WTC Challenge",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
